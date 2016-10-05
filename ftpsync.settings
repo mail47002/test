@@ -1,0 +1,10 @@
+{
+ "default": {
+ "host": "ari.ftp.ukraine.com.ua",
+ "username": "ari_ari",
+ "password": "1gv8k1e2",
+ "path": "/ari.in.ua/test/",
+ "upload_on_save": true,
+ "tls": false 
+ }
+}

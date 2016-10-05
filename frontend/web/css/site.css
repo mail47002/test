@@ -1,0 +1,496 @@
+
+/**
+ * Forms
+ */
+form {
+}
+form .btn {
+	margin-top:40px;
+}
+form .alert .btn {
+	margin-top:0;
+}
+form .input-group-btn > .btn {
+	margin-top:0;
+}
+
+.office-bonus-edit select option:first-child,
+.office-profile-update select option:first-child,
+.office-sale-registration select option:first-child,
+#form-signup select option:first-child
+{
+	color:#b895c2;
+}
+
+
+/**
+ * Rating
+ */
+
+.user-rating tbody tr.section_1 {
+	color:#fff;
+	background-color:#8dc63f;
+	font-size:22px;
+}
+.user-rating tbody tr.section_2 {
+	color:#fff;
+	background-color:#b895c2;
+	font-size:19px;
+}
+.user-rating tbody tr.section_3 {
+	color:#fff;
+	background-color:#8dc63f;
+	font-size:16px;
+}
+.user-rating tbody tr.section_4 {
+	color:#fff;
+	background-color:#b895c2;
+	font-size:15px;
+}
+.user-rating tbody tr {
+	color:#712c86;
+	font-size:15px;
+}
+.rating-legend p {
+	margin-bottom:5px;
+}
+.rating-legend span {
+	padding:2px 8px;
+}
+.rating-legend span.section_1 {
+	color:#fff;
+	background-color:#8dc63f;
+}
+.rating-legend span.section_2 {
+	color:#fff;
+	background-color:#b895c2;
+}
+.rating-legend span.section_3 {
+	color:#fff;
+	background-color:#8dc63f;
+}
+.rating-legend span.section_4 {
+	color:#fff;
+	background-color:#b895c2;
+}
+
+
+/**
+ * Products
+ */
+.office-prizes-index .alert {
+	margin-top:20px;
+}
+.office-prizes-index .alert  h2 {
+	margin:0;
+}
+.product-item+.product-item {
+	border-top-color:#ddd;
+	border-top-style:solid;
+	border-top-width:1px;
+}
+.product-item:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.office-products-index .product-item {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.office-prizes-index .product-item {
+	padding-top: 40px;
+	padding-left:20px;
+	padding-bottom: 40px;
+	padding-right:20px;
+}
+.product-item h2 {
+	font-size:18px;
+	margin-top: 0px;
+}
+.product-photo {
+	max-height:170px;
+	display:block;
+	margin:0 auto;
+}
+.product-card .price-block .row > div {
+	margin-top:20px;
+}
+.price-block {
+	margin-top:20px;
+}
+.points-title {
+	font-size:24px;
+	text-align:center;
+}
+.points-value {
+	font-size:24px;
+	text-align:center;
+}
+.gift-value {
+	font-size:24px;
+	text-align:center;
+	line-height:1;
+}
+.btn-order {
+	text-align:center;
+}
+.btn-margin {
+	margin-top:30px;
+}
+@media (min-width: 768px) {
+	.product-item h2 {
+		font-size:24px;
+	}
+	.price-block {
+		margin-top:0px;
+	}
+	.gift-value {
+		font-size:32px;
+		text-align:center;
+	}
+	.points-title {
+		font-size:24px;
+	}
+	.points-value {
+		font-size:48px;
+	}
+	.btn-order {
+		text-align:center;
+		margin-top:25px;
+	}
+}
+/* Tabs */
+.product-tabs {
+	
+}
+#content .nav-tabs > li > a {
+	text-transform:uppercase;
+	font-size:18px;
+	text-decoration:none;
+	background-color:#eee;
+}
+
+#content .nav-tabs > li.active > a {
+	background-color: #8dc63f;
+	color:#fff;
+}
+#content .nav-tabs > li > a:hover, #content .nav-tabs > li.active > a:hover {
+	background-color:#b895c2;
+	color:#fff;
+}
+.product-tabs .tab-content {
+	margin-top:20px;
+}
+
+/**
+ * Sales
+ */
+.sales-img img {
+	display:block;
+	max-width:100%;
+	width:100%;
+	max-height:100%;
+}
+
+/**
+ * Gifts
+ */
+.gifts-form .form-group .control-label {
+	margin-top:25px;
+	margin-bottom:15px;
+	color:#b895c2;
+}
+.gifts-form .form-group > div > label {
+	display:block;
+	clear:both;
+	color:#712c86;
+}
+
+
+/**
+ * News
+ */
+.piece-of-news {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.piece-of-news+.piece-of-news{
+	border-top-color:#ddd;
+	border-top-style:solid;
+	border-top-width:1px;
+}
+.office-news-archive .news-img  img {
+	max-height:170px;
+	display:block;
+	margin:10px auto;
+}
+.piece-of-news h2 {
+	font-size:18px;
+	margin-top: 0px;
+}
+.news-footer {
+	margin-top:25px;
+}
+@media (min-width: 768px) {
+	.piece-of-news h2 {
+		font-size:24px;
+	}
+}
+/* Dashboard News */
+#dashboard-news {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#dashboard-news  .common-title  {
+	color:#444;
+	display:block;
+	font-size:26px;
+}
+#dashboard-news .promo-ico  {
+	text-align:center;
+}
+#dashboard-news .promo-ico  .glyphicon{
+	color:#8dc63f;
+	font-size:72px;
+}
+#dashboard-news  .item-title  {
+	font-size:15px;
+	line-height:1.1;
+	color:#444;
+	text-transform:uppercase;
+	text-decoration:none;
+	display:block;
+	margin-bottom:5px;
+}
+#dashboard-news  .post-info {
+	color:#bbb;
+}
+#dashboard-news  .news-piece {
+	margin-top:6px;
+	margin-bottom:6px;
+	padding-left:10px;
+	border-left-color:#8dc63f;
+	border-left-style:solid;
+	border-left-width:5px;
+}
+/**
+ * FAQ
+ */
+.office-faq-archive .piece-of-faq {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+.office-faq-archive .piece-of-faq+.piece-of-faq {
+	margin-top:20px;
+	margin-bottom:20px;
+	border-top-color:#f1f1f1;
+	border-top-style:solid;
+	border-top-width:1px;
+	
+}
+#content .faq-title>a {
+	color:#712c86;
+	text-decoration:none;
+}
+#content .faq-title>a:hover {
+	text-decoration:underline;
+}
+.office-faq-archive .faq-title h2 {
+	text-transform:none;
+	font-size:22px;
+}
+
+
+/**
+ * Profile
+ */
+.user-photo {
+	display:block;
+	margin:0 auto 25px auto;
+}
+@media (min-width: 768px) {
+	.user-photo {
+		margin:0 0 25px 0;
+	}
+}
+.profile-notify {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.profile-notify .alert-success hr {
+	border-top-color:#fff;
+}
+.profile-notify  .glyphicon-star-empty {
+	font-size:52px;
+	color:#71af1d;
+}
+.profile-notify  .glyphicon-gift {
+	font-size:46px;
+	color:#71af1d;
+}
+.profile-notify .value {
+	line-height:1;
+	font-size:42px;
+}
+.profile-notify .title {
+	display:block;
+	font-size:18px;
+	padding-top:10px;
+}
+.profile-notify .remarka {
+	display:block;
+	font-size:18px;
+}
+.profile-notify .notify-lable .glyphicon {
+	font-size:116px;
+	color:#71af1d;
+	margin-top:25px;
+	margin-left:-10px;
+}
+
+
+
+/**
+ * Dashboard
+ */
+
+.dashboard-notify {
+
+}
+.study-nitify .value, .study-nitify .remarka {
+	text-align:center;
+}
+@media (min-width: 768px) {
+	.study-nitify .value, .study-nitify .remarka {
+		text-align:left;
+	}
+}
+.dashboard-notify .alert-arning hr {
+	border-top-color:#fff;
+}
+.dashboard-notify .notify-lable .glyphicon {
+	font-size:116px;
+	color:#89419f;
+	margin-top:25px;
+}
+.dashboard-notify .btn {
+	margin-top:15px;
+	margin-bottom:15px;
+}
+/**/
+.dashboard-notify .glyphicon {
+	font-size:82px;
+}
+.dashboard-notify .title {
+	display:block;
+	font-size:16px;
+	padding-top:10px;
+}
+.dashboard-notify .value {
+	display:block;
+	font-size:36px;
+}
+.dashboard-notify .alert-success .glyphicon {
+	color:#71af1d;
+}
+.dashboard-notify .alert-info .glyphicon {
+	color:#89419f;
+}
+.dashboard-notify .alert-warning .glyphicon {
+	color:#a377af;
+}
+.dashboard-notify .alert-danger .glyphicon {
+	color:#c9342f;
+}
+
+a.alert-success:hover {
+	background-color:#71af1d;
+	color:#8dc63f;
+	border-color:#8dc63f;
+}
+a.alert-success:hover .glyphicon {
+	color:#8dc63f;
+}
+a.alert-info:hover {
+	background-color:#89419f;
+	color:#712c86;
+	border-color:#712c86;
+}
+a.alert-info:hover .glyphicon {
+	color:#712c86;
+}
+a.alert-warning:hover {
+	background-color:#a377af;
+	color:#b895c2;
+	border-color:#b895c2;
+}
+a.alert-warning:hover .glyphicon {
+	color:#b895c2;
+}
+a.alert-danger:hover {
+	background-color:#c9342f;
+	color:#d9534f;
+	border-color:#d9534f;
+}
+a.alert-danger:hover .glyphicon {
+	color:#d9534f;
+}
+
+
+
+/* New users list */
+.new-users-list a, .new-sales-list a, .new-gifts-list a, .new-users-list a .glyphicon, .new-sales-list a .glyphicon, .new-gifts-list a .glyphicon, .new-sales-list span .glyphicon {
+	color:#fff;
+}
+
+.new-users-list a:hover, .new-users-list a:hover .glyphicon {
+	color:#712c86;
+}
+.new-sales-list a:hover, .new-sales-list a:hover .glyphicon {
+	color:#336600;
+}
+.new-gifts-list a:hover, .new-gifts-list a:hover .glyphicon {
+	color:#b11611;
+}
+
+tr.success, tr.info, tr.warning, tr.danger {
+	color:#fff;
+}
+
+.new-users-list thead th, .new-users-list thead th a {
+	color:#b895c2;
+}
+.new-sales-list thead th, .new-sales-list thead th a {
+	color:#8dc63f;
+}
+.new-gifts-list thead th, .new-gifts-list thead th a {
+	color:#d9534f;
+}
+.new-users-list thead th a:hover {
+	color:#712c86;
+}
+.new-sales-list thead th a:hover {
+	color:#336600;
+}
+.new-gifts-list thead th a:hover {
+	color:#b11611;
+}
+
+.new-sales-list .tooltip-inner {
+	background-color:#336600;
+}
+.new-sales-list  .tooltip.top .tooltip-arrow {
+	border-top-color:#336600;
+}
+.new-gifts-list .tooltip-inner {
+	background-color:#b11611;
+}
+.new-gifts-list  .tooltip.top .tooltip-arrow {
+	border-top-color:#b11611;
+}
+
+
+.office-faq-sample hr {
+	margin-bottom:100px;
+	border-color:#666;
+	
+}
